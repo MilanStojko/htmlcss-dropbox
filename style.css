@@ -313,13 +313,13 @@ div.descruolo2{
     background-color: #b4d0e7;
 }
 .turchese h1{
-    font-size: 40px;
+    font-size: 30px;
     color: #61082b;
 }
 .separatore1{
     float: left;
     width: 50%;
-    padding: 100px 200px;
+    padding: 100px 280px;
 }
 .seperatore2{
     padding: 100px;
@@ -344,4 +344,22 @@ div.descruolo2{
     content: "";
     display: table;
     clear: both;
+}
+.faq{
+    margin: 100px 15%;
+    width: 70%;
+}
+.faq div h1{
+    margin-bottom: 60px;
+}
+.faq div p{
+    margin: 35px 0;
+    font-weight: bold;
+}
+.hidden{
+    display: none;
+    font-weight: normal;
+}
+.on:hover>p{
+    display: block;
 }
