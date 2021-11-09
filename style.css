@@ -79,8 +79,8 @@ main div.blu{
 }
 div p.jumbop{
     margin: 0 70% 25px 150px;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 24px;
     display: inline-block;
 }
 .jumbotron{
@@ -237,4 +237,111 @@ div.descruolo2{
 }
 .nomargin{
     margin-right: 0px !important;
+}
+.contenitore{
+    float: left;
+    width: 100%;
+}
+.partner{
+    float: left;
+    width: 30%;
+}
+.sec1 div{
+    float: left;
+    width: 50%;
+    height: 250px;
+    background-color: black;
+}
+.sec1 div img{
+    width: 60%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    filter: invert(100%);
+}
+.sec1 div:hover{
+    border: 10px solid rgba(225, 225, 225, 0.4);
+}
+
+.sec2{
+    background-color: #f5f5f5;
+    padding: 50px 50px;
+    float: left;
+    width: 40%;
+    height: 500px; 
+    overflow-y:scroll;
+}
+.sec2 img{
+    width: 200px;
+    margin-bottom: 40px;
+}
+.sec2 img+hr{
+    width: 30px;
+    margin-bottom: 40px;
+}
+.sec1::after, .contenitore::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#s1{
+    background-color: #a2d39b;
+}
+#s2{
+    background-color: #61082b;
+}
+#s3{
+    background-color: #0093ce;
+}
+#s4{
+    background-color: #ff1c1c;
+}
+#s5{
+    background-color: #d5001f;
+}
+#s6{
+    background-color: #b4d0e7;
+}
+#s7{
+    background-color: #0d2481;
+}
+#s8{
+    background-color: #ffd830;
+}
+.turchese{
+    background-color: #b4d0e7;
+}
+.turchese h1{
+    font-size: 40px;
+    color: #61082b;
+}
+.separatore1{
+    float: left;
+    width: 50%;
+    padding: 100px 200px;
+}
+.seperatore2{
+    padding: 100px;
+    float: right;
+    width: 40%;
+}
+.separatore2 a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px 60px;
+    background-color: white;
+    margin-left: 120px;
+}
+.ennesimobutton{
+    color: black;
+    background-color: white;
+    padding: 15px 115px;
+    text-decoration: none;
+}
+.turchese::after{
+    content: "";
+    display: table;
+    clear: both;
 }
